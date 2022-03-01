@@ -1,0 +1,20 @@
+
+
+/* mặc định cho màn hình lớn */
+.col {
+    width: 25%;
+}
+
+/* cho màn hình nhỏ hơn 500px*/
+@media (max-width: 500px) {
+    .col {
+        width: 98%;
+    }
+}
+
+/* cho màn hình từ 500-700px */
+@media (min-width: 500px) and (max-width: 700px) {
+    .col {
+        width: 48%;
+    }
+}

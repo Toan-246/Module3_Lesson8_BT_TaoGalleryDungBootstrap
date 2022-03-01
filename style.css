@@ -1,0 +1,23 @@
+.col {
+    height: 200px;
+    width: 24%;
+    border: solid;
+    float: left;
+}
+.num1, .num3{
+    background-color: aqua;
+}
+.num2, .num4 {
+    background-color: blue;
+}
+
+@media (max-width: 500px) {
+    .col{
+        width: 98%;
+    }
+}
+@media (max-width: 700px) {
+    .col{
+        width: 49%;
+    }
+}
